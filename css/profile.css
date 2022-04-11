@@ -1,0 +1,29 @@
+/* profile page css */
+.profile-page{
+    margin:0;
+    height: 40%;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    display: flex;
+    flex-flow: row;
+    width: 400px;
+    height: 400px;
+    contain: content;
+    border-radius: 300px;
+    border: 1px solid black;
+    padding-top: 30px;
+    padding-left: 50px;
+    
+}
+.profile-page p{
+    line-height: 1.5;   
+}
+.info{
+    flex-flow: column;
+
+
+}

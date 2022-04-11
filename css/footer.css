@@ -1,0 +1,13 @@
+.footer{
+    width:100%;
+    height: 500px;
+    padding: 50px;
+   
+}
+.footer ul{
+    list-style-type: none;
+    color: white;
+}
+.footer li{
+    float: left;
+}
