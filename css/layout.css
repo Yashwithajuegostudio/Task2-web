@@ -50,6 +50,7 @@
     height: 4vh;
     width: 9vh;
       border: 1px solid green;
+      text-decoration: none;
       
   }
   .project-description{
