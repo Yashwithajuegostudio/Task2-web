@@ -1,0 +1,37 @@
+.flexbox-container{
+    display: flex;
+    background-color: aquamarine;
+    /* align-items: center; item will shrink here*/
+    
+    flex-wrap: wrap;/*instead of shrinking flexbox will wrap around one after the another*/
+    flex-direction: column;
+    height: 80vh;
+
+
+    justify-content: center;
+    align-items: center;
+}.flexitems {
+    width: 200px;
+    margin: 10px;
+    background-color:white;
+    border: 3px solid black;
+    /* flex: grow shrink flex space
+              1    1       2
+
+*/
+
+            }
+.flexitems1{
+    min-height: 100px;
+    /* shrink is not applied to flexbox 1*/ flex-shrink: 0;
+    /*to grow flex item 1*/flex-grow: 1;
+    align-self: flex-start  ;
+    flex: 1 2 20px;
+}
+.flexitems2{
+    min-height: 100px;
+    align-self: center;
+}
+.flexitems3 {
+    min-height: 100px;
+}
